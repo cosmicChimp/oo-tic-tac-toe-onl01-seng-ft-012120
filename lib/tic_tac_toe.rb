@@ -72,4 +72,8 @@ class TicTacToe
       end
     end
     
+    def full?
+      @board.all?{|occup| occup != " "}
+    end
+      
 end
