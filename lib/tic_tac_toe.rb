@@ -60,4 +60,8 @@ class TicTacToe
       end
     end
     
+    def won?
+      WIN_COMBINATIONS.detect do |win_combo|
+        if (@board(win_combo[0]) == "X"
+    
 end
