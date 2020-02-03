@@ -66,7 +66,6 @@ class TicTacToe
           return win_combo
         elsif (@board[win_combo[0]]) == "O" && (@board[win_combo[1]]) == "O" && (@board[win_combo[2]]) == "O"
           return win_combo
-          nil
         end
           false
         
