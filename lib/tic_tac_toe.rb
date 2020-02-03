@@ -54,7 +54,7 @@ class TicTacToe
       char = current_player
       if valid_move?(index)
         move(index, char)
-        display board
+        display_board
       else
         turn
       end
